@@ -18,7 +18,7 @@ export const Info = () => {
         <div className="info">
             <img className="main-img" src={tasveer} alt="" />
             <div className="info-children">
-                <h1 className="title">Hamail Hassan</h1>
+                <h1 className="title">Maanay</h1>
                 <p className="position">Frontend Developer</p>
                 <p className="link">hamailhassan.com</p>
             </div>
