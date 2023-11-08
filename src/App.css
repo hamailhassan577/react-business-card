@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rebeccapurple;
+  font-family: 'Inter', sans-serif;
+}
+
+
+.boxed {
+  max-width: 400px;
+  margin: 0 auto;
+  background: #F5F5F5;
+}
+
+/* INFO COMPONENT STYLES */
+
+.main-img {
+  width: 400px;
+}
+
+.info-children {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 0; 
+  font-weight: 700;
+  color: #2B283A;
+}
+
+.position {
+  margin-top: 0.1em;
+  color: #F47D27;
+}
+
+.link {
+  color: #4A4E74;
+}
+
+.btns {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+}
+
+.btn {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 115px;
+  padding: 9px 13px 9px 11px;
+  font-weight: 600;
+  color: var(--gray-700, #374151);
+  border-radius: 6px;
+  border: 1px solid var(--gray-300, #D1D5DB);
+  background: var(--white, #FFF);
+}
+
+.blue-btn {
+  background: #297FE5;
+  color: white;
+}
+
+
+/* ABOUT AND INTEREST STYLES */
+
+.heading {
+  font-weight: 700;
+  color: #2B283A;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.description {
+  color: #4A4E74;
+  line-height: 1.5;
+}
+
+.margin {
+  margin-left: 20px;
+  margin-right: 20px
+}
+
+/* Footer Styles */
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;;
+    gap: 10px;
+    background: #D5D4D8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
